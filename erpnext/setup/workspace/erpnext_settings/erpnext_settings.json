@@ -8,12 +8,12 @@
  "hide_custom": 0,
  "icon": "setting",
  "idx": 0,
- "label": "ERPNext Settings",
+ "label": "NB Next Settings",
  "links": [],
  "modified": "2022-06-27 16:53:07.056620",
  "modified_by": "Administrator",
  "module": "Setup",
- "name": "ERPNext Settings",
+ "name": "NB Next Settings",
  "owner": "Administrator",
  "parent_page": "",
  "public": 1,
@@ -91,5 +91,5 @@
    "type": "DocType"
   }
  ],
- "title": "ERPNext Settings"
+ "title": "NB Next Settings"
 }
