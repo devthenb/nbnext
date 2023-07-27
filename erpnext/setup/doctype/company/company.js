@@ -1,7 +1,7 @@
 // Copyright (c) 2015, Frappe Technologies Pvt. Ltd. and Contributors
 // License: GNU General Public License v3. See license.txt
 
-frappe.provide("erpnext.company");
+frappe.provide("nbnextlinkspany");
 
 frappe.ui.form.on("Company", {
 	onload: function(frm) {
@@ -18,7 +18,7 @@ frappe.ui.form.on("Company", {
 		});
 	},
 	setup: function(frm) {
-		erpnext.company.setup_queries(frm);
+		nbnextlinkspany.setup_queries(frm);
 
 		frm.set_query("parent_company", function() {
 			return {
@@ -120,7 +120,7 @@ frappe.ui.form.on("Company", {
 			}
 		}
 
-		erpnext.company.set_chart_of_accounts_options(frm.doc);
+		nbnextlinkspany.set_chart_of_accounts_options(frm.doc);
 	},
 
 	make_default_tax_template: function(frm) {
@@ -135,7 +135,7 @@ frappe.ui.form.on("Company", {
 	},
 
 	country: function(frm) {
-		erpnext.company.set_chart_of_accounts_options(frm.doc);
+		nbnextlinkspany.set_chart_of_accounts_options(frm.doc);
 	},
 
 	delete_company_transactions: function(frm) {
@@ -175,7 +175,7 @@ frappe.ui.form.on("Company", {
 });
 
 
-erpnext.company.set_chart_of_accounts_options = function(doc) {
+nbnextlinkspany.set_chart_of_accounts_options = function(doc) {
 	var selected_value = doc.chart_of_accounts;
 	if(doc.country) {
 		return frappe.call({
@@ -195,7 +195,7 @@ erpnext.company.set_chart_of_accounts_options = function(doc) {
 	}
 }
 
-erpnext.company.setup_queries = function(frm) {
+nbnextlinkspany.setup_queries = function(frm) {
 	$.each([
 		["default_bank_account", {"account_type": "Bank"}],
 		["default_cash_account", {"account_type": "Cash"}],
@@ -228,7 +228,7 @@ erpnext.company.setup_queries = function(frm) {
 		["default_advance_received_account", {"root_type": "Liability", "account_type": "Receivable"}],
 		["default_advance_paid_account", {"root_type": "Asset", "account_type": "Payable"}],
 	], function(i, v) {
-		erpnext.company.set_custom_query(frm, v);
+		nbnextlinkspany.set_custom_query(frm, v);
 	});
 
 	if (frm.doc.enable_perpetual_inventory) {
@@ -243,12 +243,12 @@ erpnext.company.setup_queries = function(frm) {
 				{"root_type": "Liability", "account_type": "Service Received But Not Billed"}],
 
 		], function(i, v) {
-			erpnext.company.set_custom_query(frm, v);
+			nbnextlinkspany.set_custom_query(frm, v);
 		});
 	}
 }
 
-erpnext.company.set_custom_query = function(frm, v) {
+nbnextlinkspany.set_custom_query = function(frm, v) {
 	var filters = {
 		"company": frm.doc.name,
 		"is_group": 0

@@ -1,5 +1,5 @@
 <div align="center">
-    <a href="https://erpnext.com">
+    <a href="https://nbnextlinks">
         <img src="https://raw.githubusercontent.com/frappe/erpnext/develop/erpnext/public/images/erpnext-logo.png" height="128">
     </a>
     <h2>ERPNext</h2>
@@ -13,26 +13,26 @@
 [![codecov](https://codecov.io/gh/frappe/erpnext/branch/develop/graph/badge.svg?token=0TwvyUg3I5)](https://codecov.io/gh/frappe/erpnext)
 [![docker pulls](https://img.shields.io/docker/pulls/frappe/erpnext-worker.svg)](https://hub.docker.com/r/frappe/erpnext-worker)
 
-[https://erpnext.com](https://erpnext.com)
+[https://nbnextlinks](https://nbnextlinks)
 
 </div>
 
 ERPNext as a monolith includes the following areas for managing businesses:
 
-1. [Accounting](https://erpnext.com/open-source-accounting)
-1. [Warehouse Management](https://erpnext.com/distribution/warehouse-management-system)
-1. [CRM](https://erpnext.com/open-source-crm)
-1. [Sales](https://erpnext.com/open-source-sales-purchase)
-1. [Purchase](https://erpnext.com/open-source-sales-purchase)
-1. [HRMS](https://erpnext.com/open-source-hrms)
-1. [Project Management](https://erpnext.com/open-source-projects)
-1. [Support](https://erpnext.com/open-source-help-desk-software)
-1. [Asset Management](https://erpnext.com/open-source-asset-management-software)
-1. [Quality Management](https://erpnext.com/docs/user/manual/en/quality-management)
-1. [Manufacturing](https://erpnext.com/open-source-manufacturing-erp-software)
-1. [Website Management](https://erpnext.com/open-source-website-builder-software)
-1. [Customize ERPNext](https://erpnext.com/docs/user/manual/en/customize-erpnext)
-1. [And More](https://erpnext.com/docs/user/manual/en/)
+1. [Accounting](https://nbnextlinks/open-source-accounting)
+1. [Warehouse Management](https://nbnextlinks/distribution/warehouse-management-system)
+1. [CRM](https://nbnextlinks/open-source-crm)
+1. [Sales](https://nbnextlinks/open-source-sales-purchase)
+1. [Purchase](https://nbnextlinks/open-source-sales-purchase)
+1. [HRMS](https://nbnextlinks/open-source-hrms)
+1. [Project Management](https://nbnextlinks/open-source-projects)
+1. [Support](https://nbnextlinks/open-source-help-desk-software)
+1. [Asset Management](https://nbnextlinks/open-source-asset-management-software)
+1. [Quality Management](https://nbnextlinks/docs/user/manual/en/quality-management)
+1. [Manufacturing](https://nbnextlinks/open-source-manufacturing-erp-software)
+1. [Website Management](https://nbnextlinks/open-source-website-builder-software)
+1. [Customize ERPNext](https://nbnextlinks/docs/user/manual/en/customize-erpnext)
+1. [And More](https://nbnextlinks/docs/user/manual/en/)
 
 ERPNext is built on the [Frappe Framework](https://github.com/frappe/frappe), a full-stack web app framework built with Python & JavaScript.
 
@@ -63,17 +63,17 @@ New passwords will be created for the ERPNext "Administrator" user, the MariaDB 
 ## Learning and community
 
 1. [Frappe School](https://frappe.school) - Learn Frappe Framework and ERPNext from the various courses by the maintainers or from the community.
-2. [Official documentation](https://docs.erpnext.com/) - Extensive documentation for ERPNext.
-3. [Discussion Forum](https://discuss.erpnext.com/) - Engage with community of ERPNext users and service providers.
+2. [Official documentation](https://docs.nbnextlinks/) - Extensive documentation for ERPNext.
+3. [Discussion Forum](https://discuss.nbnextlinks/) - Engage with community of ERPNext users and service providers.
 4. [Telegram Group](https://erpnext_public.t.me) - Get instant help from huge community of users.
 
 
 ## Contributing
 
 1. [Issue Guidelines](https://github.com/frappe/erpnext/wiki/Issue-Guidelines)
-1. [Report Security Vulnerabilities](https://erpnext.com/security)
+1. [Report Security Vulnerabilities](https://nbnextlinks/security)
 1. [Pull Request Requirements](https://github.com/frappe/erpnext/wiki/Contribution-Guidelines)
-1. [Translations](https://translate.erpnext.com)
+1. [Translations](https://translate.nbnextlinks)
 
 
 ## License
